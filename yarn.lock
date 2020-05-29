@@ -1100,7 +1100,7 @@
     which "^1.3.0"
     xml2js "^0.4.19"
 
-"@capacitor/core@^2.1.1", "@capacitor/core@latest":
+"@capacitor/core@^2.0.0", "@capacitor/core@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.1.1.tgz#93cbe1cb9ea779a369b6648a68aab86019455848"
   integrity sha512-BJwBJ8TycicCMzFFAUNJ2bkjT0QO5+kWapTvqDOqceLD2wNSP37bLtrohWKV/BkKpLclOxzp4cMlCm9VIlh5yA==
@@ -1436,12 +1436,17 @@
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
 
-"@teamhive/capacitor-video-recorder@^3.2.3":
+"@teamhive/capacitor-video-recorder@github:disbelief/capacitor-video-recorder#capacitor-2.0.0":
   version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@teamhive/capacitor-video-recorder/-/capacitor-video-recorder-3.2.3.tgz#5071fd5eb1b550aa41af81e18d2d7bba3ea49dff"
-  integrity sha512-OoTBinH0h3Cz84q/889OQTJzINfrMWGjHaAiTUN0Ich+B/r/+TeIJc+W5gKPZbXfXWPMa2QuOEWyUDklkLgsvw==
+  resolved "https://codeload.github.com/disbelief/capacitor-video-recorder/tar.gz/f7a4357fe822c7afec5ed8b9f643b637c95c6b84"
   dependencies:
-    "@capacitor/core" latest
+    "@capacitor/core" "^2.0.0"
+
+"@teamhive/capacitor-video-recorder@github:disbelief/capacitor-video-recorder#capacitor-2.0.0-dist":
+  version "3.2.3"
+  resolved "https://codeload.github.com/disbelief/capacitor-video-recorder/tar.gz/8f4b38391475a2b4ac30e15609a20c1b3880dc73"
+  dependencies:
+    "@capacitor/core" "^2.0.0"
 
 "@testing-library/dom@^6.15.0":
   version "6.16.0"

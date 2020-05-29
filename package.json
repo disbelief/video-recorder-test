@@ -6,7 +6,7 @@
     "@capacitor/android": "2.1.1",
     "@capacitor/cli": "^2.1.1",
     "@capacitor/core": "^2.1.1",
-    "@teamhive/capacitor-video-recorder": "^3.2.3",
+    "@teamhive/capacitor-video-recorder": "github:disbelief/capacitor-video-recorder#capacitor-2.0.0-dist",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -17,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-native": "yarn build && yarn cap copy",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
