@@ -24,6 +24,7 @@ const cameraConfig = () => {
 };
 
 const VideoRecorderContainer = () => {
+  console.log('VideoRecorderContainer.render');
   const [isInitialized, setIsInitialized] = useState(false);
   const [isRecording, setIsRecording] = useState(false);
   const recorderRef = useRef(null);
