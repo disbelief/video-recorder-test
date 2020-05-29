@@ -1,0 +1,13 @@
+{
+  "appId": "ca.auka.videorecorder",
+  "appName": "video-recorder-test",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
